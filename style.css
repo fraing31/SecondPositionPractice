@@ -9,7 +9,8 @@ body {
 
 .superContainer {
     background: black;
-    height: 50px;
+    height: 40px;
+    
 }
 
 .header1 {
@@ -27,6 +28,7 @@ body {
     color: white;
     margin: 5px;
     padding: 5px;
+    text-align: center;
 }
 
 .header1 .explorer a {
@@ -57,10 +59,10 @@ body {
 }
 
 .card {
-    border: 2px solid rgb(160, 160, 160);
     width: 500px;
     border-radius: 10px;
     box-shadow: 4px 4px 4px grey;
+    margin-bottom: 20px;
 
 }
 
@@ -74,7 +76,6 @@ body {
     position: relative;
     top:30px;
     left:20px;
-    border: 2px solid rgb(160, 160, 160);
     border-radius: 50%;
     padding: 2px;
     background-color: white;
@@ -93,7 +94,7 @@ body {
 
 .iconoConfig {
     width: 15px;
-    padding: 15px;
+    padding: 5px;
 }
 
 .city, .editPro {
@@ -109,7 +110,6 @@ body {
 }
 
 .edu {
-    border: 2px solid rgb(160, 160, 160);
     width: 500px;
 
     border-radius: 10px;
@@ -124,7 +124,22 @@ body {
     font-weight: 900;
     display: flex;
     justify-content: space-between;
-    
+}
+
+.edu > p {
+    padding-left: 23px;
+    padding-top: 10px;
+    padding-bottom: 5px;
+} 
+
+.fontBold1 {
+    font-size: 20px;
+}
+
+.fontGrey {
+    color: grey;
+    font-size: 15px;
+
 }
 
 .container2 {
@@ -132,17 +147,25 @@ body {
     flex-direction: column;
     flex: 0 0 300px;
     padding: 20px;
-    justify-content: flex;
+    justify-content:flex-start;
 
 }
 
 .connection {
-    border: 2px solid rgb(160, 160, 160);
-    width: 300px;
-
+    width: 280px;
+    height: 200px;
     border-radius: 10px;
     background-color: #fff;
     box-shadow: 4px 4px 4px grey;
+    margin-bottom: 20px;
+}
+
+.user1 > span {
+    vertical-align: 15px;
+}
+
+.user2 > span {
+    vertical-align: 15px;
 }
 
 .connection .conRe {
@@ -156,8 +179,8 @@ body {
 }
 
 .yourConnect {
-    border: 2px solid rgb(160, 160, 160);
-    width: 300px;
+    width: 280px;
+    height: 350px;
 
     border-radius: 10px;
     background-color: #fff;
@@ -173,6 +196,11 @@ body {
     justify-content: space-between;
 }
 
+.yourConnect span {
+    vertical-align: 15px;
+    padding-left: 25px;
+}
+
 .photo {
     width: 50px;
     position: relative;
@@ -181,6 +209,8 @@ body {
     border: 2px solid rgb(160, 160, 160);
     border-radius: 50%;
     padding: 2px;
+    margin-right: 20px
+    
 }
 
 .aClose {
@@ -189,7 +219,18 @@ body {
     top:10px;
     left:10px;
     padding: 2px;
+    float: right;
+    margin-right: 15px;
 }
+.viewMo {
+    display: block;
+    padding: 10px 25px;
+    border: grey solid;
+    border-style: solid hidden hidden hidden;
+    height: 5px;
+    margin-top: 10px;
+}
+
 
 
 
