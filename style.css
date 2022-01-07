@@ -1,0 +1,176 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Balsamiq Sans';
+}
+
+.header1 {
+    background: black;
+    color: white;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.header1 .btn {
+    background-color: cyan;
+    color: white;
+    margin: 5px;
+    padding: 5px;
+}
+
+.header1 .explorer a {
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+.container {
+    width: 90%;
+    max-width: 1000px;
+    margin: auto;
+
+    display:flex;
+}
+
+.container1 {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    padding: 20px;
+}
+
+.card {
+    border: 2px solid rgb(160, 160, 160);
+    width: 500px;
+    border-radius: 10px;
+    box-shadow: 4px 4px 4px grey;
+
+}
+
+.header2 {
+    background-color: rgb(4, 160, 160);
+    height: 70px;
+}
+
+.header2 > img {
+    width: 80px;
+    position: relative;
+    top:30px;
+    left:20px;
+    border: 2px solid rgb(160, 160, 160);
+    border-radius: 50%;
+    padding: 2px;
+    background-color: white;
+}
+
+.identityCard {
+    margin-top: 55px;
+    padding-left: 20px;
+    padding-bottom: 20px;
+}
+
+.iconUbica {
+    width: 10px;
+    padding: 5px;
+}
+
+.iconoConfig {
+    width: 15px;
+    padding: 15px;
+}
+
+.city, .linkEdit {
+    vertical-align: 7px;
+}
+
+.skillSet {
+    margin-bottom: 5px;
+} 
+
+.university {
+    margin-top: 0;
+}
+
+.edu {
+    border: 2px solid rgb(160, 160, 160);
+    width: 500px;
+
+    border-radius: 10px;
+    background-color: #fff;
+    box-shadow: 4px 4px 4px grey;
+}
+
+.edu .shadowGrey {
+    color: white;
+    background-color: rgb(37, 35, 35);
+    padding: 10px;
+    font-weight: 900;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.container2 {
+    display: flex;
+    flex-direction: column;
+    flex: 0 0 300px;
+    padding: 20px;
+}
+
+.connection {
+    border: 2px solid rgb(160, 160, 160);
+    width: 500px;
+
+    border-radius: 10px;
+    background-color: #fff;
+    box-shadow: 4px 4px 4px grey;
+}
+
+.connection .conRe {
+    color: white;
+    background-color: rgb(37, 35, 35);
+    padding: 10px;
+    font-weight: 900;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.yourConnect {
+    border: 2px solid rgb(160, 160, 160);
+    width: 500px;
+
+    border-radius: 10px;
+    background-color: #fff;
+    box-shadow: 4px 4px 4px grey;
+}
+
+.yourConnect .youConne {
+    color: white;
+    background-color: rgb(37, 35, 35);
+    padding: 10px;
+    font-weight: 900;
+    display: flex;
+    justify-content: space-between;
+}
+
+.photo {
+    width: 50px;
+    position: relative;
+    top:30px;
+    left:20px;
+    border: 2px solid rgb(160, 160, 160);
+    border-radius: 50%;
+    padding: 2px;
+}
+
+
+
+
